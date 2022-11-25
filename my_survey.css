@@ -1,0 +1,83 @@
+body {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(153, 153, 255);
+    font-family: Tahoma, sans-serif;
+    margin-bottom: 70px;
+}
+
+form {
+    text-align: left;
+    width: 100vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    background-color: rgb(228, 233, 255 );
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+fieldset {
+    margin: 10px 0;
+    border: none;
+    border-bottom: 5px solid rgb(153, 153, 255);
+}
+
+fieldset:last-of-type {
+    border: none;
+}
+
+h1, p {
+    margin: 1em auto;
+    text-align: center;
+    color: rgb(228, 233, 255);
+}
+
+input, label, option {
+    padding: 3px;
+    display: block;
+    color:rgb(36, 113, 163);
+    border: 0px solid white;
+}
+
+input, select {
+    margin: 10px 0 0 0;
+    min-height: 1em;
+}
+
+
+input[type="submit"] {
+    color:rgb(228, 233, 255);
+    background-color: rgb(36, 113, 163);
+    border: 1px solid rgb(36, 113, 163);
+    display: block;
+    width: 40%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    min-width: 100px;
+}
+
+.inline {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(36, 113, 163);
+}
+
+a:active {
+    color: white;
+}
+
+a:hover {
+    color: rgb(153, 153, 255);
+}
+
+textarea {
+    margin: 10px auto;
+    display: block;
+    border: 0 solid white;
+    width: 90%;
+}
