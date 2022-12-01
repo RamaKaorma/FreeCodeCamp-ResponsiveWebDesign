@@ -1,0 +1,133 @@
+@media (min-width: 100px) and (max-width: 200px) {
+    body {
+        font-size: 8px;
+    }
+    nav {
+        padding: 2px;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Droid Serif", sans-serif;
+    margin: 0;
+    color: #0a0a23;
+}
+
+nav {
+    height: 100%;
+    width: 17%;
+    position: fixed;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    background-color: #0a0a23;
+    float: left;
+}
+
+nav header {
+    padding: 10px;
+    font-size: 150%;
+    color: #F7F7F7;
+    border-bottom: 10px double #F7F7F7;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #F7F7F7; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 102, 102); 
+}
+
+.nav-link {
+    padding: 10px;
+    color: #F7F7F7;
+    text-decoration: none;
+    font-size: 18px;
+    width: 100%;
+    border-bottom: 1px solid #F7F7F7;
+}
+
+.nav-link:hover {
+    background-color: #F7F7F7;
+    color: #0a0a23;
+    width: 100%;
+}
+
+.nav-sub-link {
+    /* padding: 5px 0 5px 0px; */
+    color: #F7F7F7;
+    text-decoration: none;
+    font-size: 16px;
+    width: 100%;
+    text-indent: 10px;
+    margin: 0;
+    padding-bottom: 7px;
+    padding-top: 3px;
+}
+
+main {
+    margin-left: 250px;
+    float: right;
+}
+
+section header {
+    font-size: 30px;
+    padding-top: 30px;
+    border-bottom: 5px solid #0a0a23;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+ul li {
+    list-style-type: square;
+    line-height: 1.5em;
+}
+
+.indent {
+    position: absolute;
+    text-indent: 50px;
+}
+
+.code {
+    background-color: #F7F7F7;
+    counter-reset: line;
+}
+
+code {
+    display: block;
+}
+
+code::before {
+    counter-increment: line;
+    content: counter(line);
+    display: inline-block;
+    border-right: 1px solid #ddd;
+    padding: 0.2em;
+    color: #000068;
+    font-weight: 500;
+}
+
+code::after {
+    display: block;
+}
+
